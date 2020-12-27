@@ -7,7 +7,7 @@ class SearchBar extends React.Component {
       e.preventDefault(); // prevent from browser to refresh after user press Enter
       this.props.onSubmit(this.state.term);
   }
-  
+
   render() {
     return (
       <div className="ui segment" onSubmit = {this.onFormSubmit}>
