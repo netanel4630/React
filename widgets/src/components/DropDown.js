@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
-const DropDown = ({label, options, selected, onSelectedChange}) =>{
+const Dropdown = ({label, options, selected, onSelectedChange}) =>{
     const [open, setOpen] = useState(false);
     const ref = useRef();
 
@@ -52,4 +52,4 @@ const DropDown = ({label, options, selected, onSelectedChange}) =>{
         )
 }
 
-export default DropDown;
+export default Dropdown;
