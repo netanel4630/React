@@ -2,6 +2,7 @@ import React from 'react';
 
 const Link = ({className, href, children}) =>{
     const onClick = (event) =>{
+        //if press ctrl and left mouse -> open new window
         if(event.metaKey || event.ctrlKey){
             return;
         }
