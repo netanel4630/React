@@ -8,7 +8,7 @@ import VideoDetail from './VideoDetail'
 const App = () =>{
     
     const [selectedVideo,setSelectedVideo] = useState(null);
-    const [videos, search] =useVideos('real madrid');
+    const [videos, search] =useVideos('Buildings');
 
     //every time videos change (user make new search) we selected the first video from the list of videos
     useEffect(()=>{
